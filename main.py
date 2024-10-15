@@ -11,7 +11,7 @@ from time import sleep
 from litellm import completion, supports_function_calling
 
 # Configuration
-MODEL_NAME = 'gpt-4o'  # Default model; can be swapped easily
+MODEL_NAME = os.environ.get('LITELLM_MODEL', 'gpt-4o')  # Default model; can be swapped easily
 
 # Initialize Flask app
 app = Flask(__name__)
