@@ -27,5 +27,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install litellm python-dotenv"
+  "postCreateCommand": "pip install -r requirements.txt"
 }
