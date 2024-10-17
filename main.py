@@ -159,7 +159,7 @@ def home():
                 <h1>Flask App Builder</h1>
                 <form method="post">
                     <label for="user_input">Describe the Flask app you want to create:</label><br>
-                    <input type="text" id="user_input" name="user_input"><br><br>
+                    <textarea id="user_input" name="user_input" style="width:100%; height:150px; padding:10px; border:1px solid #ccc; border-radius:4px; font-size:16px; resize:vertical;"></textarea><br><br>
                     <input type="submit" value="Submit">
                 </form>
             ''')
