@@ -39,7 +39,7 @@ Ditto is a user-friendly tool that allows you to generate a multi-file Flask app
 3. **Install Dependencies**
 
    ```bash
-   pip install litellm
+   pip install -r requirements.txt
    ```
 
 ### Setting the `OPENAI_API_KEY`
