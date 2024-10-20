@@ -1,3 +1,6 @@
 # Environments
 .env
 venv/
+
+# LLM Iterations Output
+flask_app_builder_log.json
