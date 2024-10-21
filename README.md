@@ -17,7 +17,7 @@ Ditto is a user-friendly tool that allows you to generate a multi-file Flask app
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - `pip` package manager
 
 ### Installation
